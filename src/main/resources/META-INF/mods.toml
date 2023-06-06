@@ -29,6 +29,6 @@ Makes steel much easier to attain for any tech mods.
 [[dependencies.better_steel]]
 modId="lemon_core"
 mandatory=true
-versionRange="[1.19.4-1.0.3,)"
+versionRange="[1.19.4-1.0.6,)"
 ordering="NONE"
 side="BOTH"

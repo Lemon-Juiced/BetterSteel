@@ -133,7 +133,7 @@ dependencies {
     runtimeOnly fg.deobf("mezz.jei:jei-1.19.4-forge:13.1.0.6")
 
     // Lemon Core Dependency
-    runtimeOnly fg.deobf("curse.maven:lemon-core-840168:4469499")
+    runtimeOnly fg.deobf("curse.maven:lemon-core-840168:4569661")
 }
 
 // Example for how to get properties into the manifest for reading at runtime.
