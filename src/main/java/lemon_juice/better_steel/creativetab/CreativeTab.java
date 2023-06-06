@@ -1,6 +1,7 @@
 package lemon_juice.better_steel.creativetab;
 
 import lemon_juice.better_steel.BetterSteel;
+import lemon_juice.better_steel.block.ModBlocks;
 import lemon_juice.better_steel.item.ModItems;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
@@ -20,8 +21,9 @@ public class CreativeTab {
                     output.accept(new ItemStack(ModItems.RAW_MANGANESE.get()));
                     output.accept(new ItemStack(ModItems.STEEL_DUST.get()));
 
-
-                    //output.accept(new ItemStack(ModBlocks.SILICON_BLOCK.get()));
+                    output.accept(new ItemStack(ModBlocks.MANGANESE_ORE.get()));
+                    output.accept(new ItemStack(ModBlocks.DEEPSLATE_MANGANESE_ORE.get()));
+                    output.accept(new ItemStack(ModBlocks.RAW_MANGANESE_BLOCK.get()));
                 }));
     }
 }

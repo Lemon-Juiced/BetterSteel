@@ -4,5 +4,9 @@
   "item.better_steel.raw_manganese": "Raw Manganese",
   "item.better_steel.steel_dust": "Steel Dust",
 
+  "block.lemon_core.manganese_ore": "Manganese Ore",
+  "block.lemon_core.deepslate_manganese_ore": "Deepslate Manganese Ore",
+  "block.lemon_core.raw_manganese_block": "Block of Raw Manganese",
+
   "itemGroup.better_steel": "Better Steel"
 }
