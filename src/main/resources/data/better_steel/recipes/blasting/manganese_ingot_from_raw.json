@@ -1,7 +1,7 @@
 {
   "type": "minecraft:blasting",
   "ingredient": {
-    "item": "lemon_core:raw_manganese"
+    "item": "better_steel:raw_manganese"
   },
   "result": "lemon_core:manganese_ingot",
   "experience": 0.1,

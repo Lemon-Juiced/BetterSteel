@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smelting",
   "ingredient": {
-    "tag": "forge:ores/manganese"
+    "item": "better_steel:raw_manganese"
   },
   "result": "lemon_core:manganese_ingot",
   "experience": 0.1,
