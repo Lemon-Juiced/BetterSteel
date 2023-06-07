@@ -1,5 +1,6 @@
 package lemon_juice.better_steel;
 
+import lemon_juice.better_steel.block.ModBlocks;
 import lemon_juice.better_steel.creativetab.CreativeTab;
 import lemon_juice.better_steel.item.ModItems;
 import net.minecraftforge.api.distmarker.Dist;
@@ -21,7 +22,7 @@ public class BetterSteel {
 
         // Register Items
         ModItems.register(modEventBus);
-        //ModBlocks.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register Creative Tab
         modEventBus.addListener(CreativeTab::registerTabs);

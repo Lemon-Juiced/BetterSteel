@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#is_overworld",
+  "features": [
+    "better_steel:manganese_ore",
+    "better_steel:deepslate_manganese_ore"
+  ],
+  "step": "underground_ores"
+}
