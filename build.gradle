@@ -4,7 +4,7 @@ plugins {
     id 'net.minecraftforge.gradle' version '5.1.+'
 }
 
-version = '1.19.4-1.0.0'
+version = '1.20-1.0.1'
 group = 'lemon_juice.better_steel' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'better_steel'
 
@@ -124,16 +124,16 @@ repositories {
 }
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.19.4-45.0.66'
+    minecraft 'net.minecraftforge:forge:1.20-46.0.2'
 
     // JEI
-    compileOnly fg.deobf("mezz.jei:jei-1.19.4-common-api:13.1.0.6")
-    compileOnly fg.deobf("mezz.jei:jei-1.19.4-forge-api:13.1.0.6")
-    runtimeOnly fg.deobf("mezz.jei:jei-1.19.4-common:13.1.0.6")
-    runtimeOnly fg.deobf("mezz.jei:jei-1.19.4-forge:13.1.0.6")
+    //compileOnly fg.deobf("mezz.jei:jei-1.19.3-common-api:12.2.0.16")
+    //compileOnly fg.deobf("mezz.jei:jei-1.19.3-forge-api:12.2.0.16")
+    //runtimeOnly fg.deobf("mezz.jei:jei-1.19.3-common:12.2.0.16")
+    //runtimeOnly fg.deobf("mezz.jei:jei-1.19.3-forge:12.2.0.16")
 
     // Lemon Core Dependency
-    runtimeOnly fg.deobf("curse.maven:lemon-core-840168:4569661")
+    runtimeOnly fg.deobf("curse.maven:lemon-core-840168:4574930")
 }
 
 // Example for how to get properties into the manifest for reading at runtime.
