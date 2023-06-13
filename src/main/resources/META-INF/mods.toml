@@ -1,10 +1,10 @@
 modLoader="javafml"
-loaderVersion="[46,)"
+loaderVersion="[47,)"
 license="GNU General Purpose License v3 (GPLv3)"
 
 [[mods]]
 modId="better_steel"
-version="1.20-1.0.2"
+version="1.20.1-1.0.3"
 displayName="Better Steel"
 logoFile="better_steel.png"
 credits="Scalar Team"
@@ -17,18 +17,18 @@ Makes steel much easier to attain for any tech mods.
 [[dependencies.better_steel]]
     modId="forge"
     mandatory=true
-    versionRange="[46,)"
+    versionRange="[47,)"
     ordering="NONE"
     side="BOTH"
 [[dependencies.better_steel]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.20,1.21)"
+    versionRange="[1.20.1,1.21)"
     ordering="NONE"
     side="BOTH"
 [[dependencies.better_steel]]
     modId="lemon_core"
     mandatory=true
-    versionRange="[1.20-1.0.7,)"
+    versionRange="[1.20.1-1.0.11,)"
     ordering="NONE"
     side="BOTH"
