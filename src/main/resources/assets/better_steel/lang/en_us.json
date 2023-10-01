@@ -1,6 +1,12 @@
 {
   "item.better_steel.raw_manganese": "Raw Manganese",
 
+  "item.better_steel.steel_axe": "Steel Axe",
+  "item.better_steel.steel_hoe": "Steel Hoe",
+  "item.better_steel.steel_pickaxe": "Steel Pickaxe",
+  "item.better_steel.steel_shovel": "Steel Shovel",
+  "item.better_steel.steel_sword": "Steel Sword",
+
   "block.better_steel.manganese_ore": "Manganese Ore",
   "block.better_steel.deepslate_manganese_ore": "Deepslate Manganese Ore",
   "block.better_steel.raw_manganese_block": "Block of Raw Manganese",

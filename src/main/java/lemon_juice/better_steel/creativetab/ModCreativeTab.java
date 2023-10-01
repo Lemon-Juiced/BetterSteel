@@ -17,11 +17,17 @@ public class ModCreativeTab {
 
     public static final RegistryObject<CreativeModeTab> BETTER_STEEL_TAB = CREATIVE_MODE_TABS.register("main", () -> CreativeModeTab.builder()
             .title(Component.translatable("itemGroup.better_steel"))
-            .icon(() -> new ItemStack(ModItems.RAW_MANGANESE.get()))
+            .icon(() -> new ItemStack(ModItems.STEEL_SWORD.get()))
             .build());
 
     public static void registerTabs(BuildCreativeModeTabContentsEvent event){
         if(event.getTab() == BETTER_STEEL_TAB.get()){
+            event.accept(ModItems.STEEL_SWORD.get());
+            event.accept(ModItems.STEEL_PICKAXE.get());
+            event.accept(ModItems.STEEL_AXE.get());
+            event.accept(ModItems.STEEL_SHOVEL.get());
+            event.accept(ModItems.STEEL_HOE.get());
+
             event.accept(ModItems.RAW_MANGANESE.get());
 
             event.accept(ModBlocks.MANGANESE_ORE.get());
