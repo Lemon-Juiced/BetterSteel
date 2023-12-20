@@ -1,17 +1,17 @@
 package lemon_juice.better_steel.item.custom.tiers;
 
 import lemon_juice.better_steel.BetterSteel;
-import lemon_juice.better_steel.tag.ModTags;
+import lemon_juice.better_steel.tag.BetterSteelTags;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.Tiers;
 import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraftforge.common.ForgeTier;
-import net.minecraftforge.common.TierSortingRegistry;
+import net.neoforged.neoforge.common.SimpleTier;
+import net.neoforged.neoforge.common.TierSortingRegistry;
 
 import java.util.List;
 
-public class ModTiers {
+public class BetterSteelTiers {
     /**
      * Contains the Tiers for the mod
      *
@@ -27,6 +27,6 @@ public class ModTiers {
      * foresight to think someone may want to increment a hoe by .5f instead of a flat integer.
      */
 
-    public static final Tier STEEL_TIER = TierSortingRegistry.registerTier(new ForgeTier(3, 906, 7.0F, 2.5F, 12, ModTags.Blocks.NEEDS_STEEL_TOOL, () -> Ingredient.of(ModTags.Items.INGOTS_STEEL)), new ResourceLocation(BetterSteel.MOD_ID, "steel"), List.of(Tiers.IRON), List.of(Tiers.DIAMOND));
-    public static final Tier STEEL_HOE_TIER = TierSortingRegistry.registerTier(new ForgeTier(3, 906, 7.0F, 3.0F, 12, ModTags.Blocks.NEEDS_STEEL_TOOL, () -> Ingredient.of(ModTags.Items.INGOTS_STEEL)), new ResourceLocation(BetterSteel.MOD_ID, "steel_hoe"), List.of(Tiers.IRON), List.of(Tiers.DIAMOND));
+    public static final Tier STEEL_TIER = TierSortingRegistry.registerTier(new SimpleTier(3, 906, 7.0F, 2.5F, 12, BetterSteelTags.Blocks.NEEDS_STEEL_TOOL, () -> Ingredient.of(BetterSteelTags.Items.INGOTS_STEEL)), new ResourceLocation(BetterSteel.MOD_ID, "steel"), List.of(Tiers.IRON), List.of(Tiers.DIAMOND));
+    public static final Tier STEEL_HOE_TIER = TierSortingRegistry.registerTier(new SimpleTier(3, 906, 7.0F, 3.0F, 12, BetterSteelTags.Blocks.NEEDS_STEEL_TOOL, () -> Ingredient.of(BetterSteelTags.Items.INGOTS_STEEL)), new ResourceLocation(BetterSteel.MOD_ID, "steel_hoe"), List.of(Tiers.IRON), List.of(Tiers.DIAMOND));
 }
